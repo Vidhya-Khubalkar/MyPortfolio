@@ -1,0 +1,383 @@
+/* Update your existing CSS file */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc5b9; /* Set background color below the header */
+}
+
+header {
+    background-color: #fffcf2;
+    padding: 20px 0;
+    overflow: hidden; /* Clearfix to contain floated elements */
+}
+
+.header-left {
+    float: left;
+    text-align: left; /* Align content on the left side */
+    width: 50%; /* Adjust as needed based on your design */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+    padding: 100px; /* Add padding to create space between content and edge */
+}
+
+.header-right {
+    float: right;
+    text-align: right; /* Align content on the right side */
+    width: 50%; /* Adjust as needed based on your design */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+    padding: 95px; /* Add padding to create space between content and edge */
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Profile Picture */
+.profile img {
+    border-radius: 50%;
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    display: block;
+    margin: 0 auto;
+    border: 10px solid #403d39; /* Add a solid border as the frame */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
+}
+
+
+.profile h1,
+.profile p {
+    margin: 5px 0;
+}
+
+.profile h2 {
+    font-size: 80px; /* Adjust as needed */
+}
+
+.contact-icons {
+    margin-top: 10px;
+}
+
+.contact-icons a {
+    margin: 0 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+#about {
+    padding: 90px;
+    margin-bottom: 20px;
+}
+
+.section-header {
+    text-align: center; /* Center-align the header text */
+    color: #252422;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.skills span {
+    background-color: #eb5e28;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    min-width: 150px;
+}
+
+.project,
+.award {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: calc(29% - 20px); /* Adjusted width and margin for responsiveness */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.project-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    margin-bottom: 15px;
+}
+
+.project-card a {
+    display: inline-block;
+    background-color: #eb5e28;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-card a:hover {
+    background-color: #c34e1b;
+}
+
+#projects,
+#awards {
+    background-color: #fffcf2; /* Set background color for My Projects and Awards & Certificates */
+}
+
+footer {
+    background-color: #403d39;;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contact-me {
+    margin-bottom: 10px;
+}
+
+.contact-icons a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.fs-56 {
+    font-size: 40px;
+}
+
+.text-gray-900 {
+    color: #333333; /* Adjust the color as needed */
+}
+
+.sub_title {
+    font-weight: bold;
+}
+
+.caveat {
+    font-style: italic;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+/* Rounded Rectangle Section */
+.rounded-rectangle {
+    background-color: #403d39; /* White background color */
+    border-radius: 20px; /* Adjust the border-radius to control the roundness */
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.7); /* Shadow effect */
+    padding: 20px; /* Add padding to the rounded rectangle */
+    margin: -50px auto 40px; /* Adjust margin to position it between header and about */
+    width: 90%; /* Adjust the width of the rounded rectangle */
+    max-width: 1200px; /* Optional: Set max-width to control the maximum width */
+    display: flex;
+    justify-content: space-around; /* Adjust alignment of child elements */
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-around; /* Center-align icons horizontally with space around */
+    align-items: center; /* Center-align icons vertically */
+}
+
+.icon-item {
+    display: flex; /* Use flexbox for icon and text alignment */
+    align-items: center; /* Center-align items vertically */
+    text-align: center; /* Center-align text */
+    margin: 20px; /* Add margin around each icon-item */
+}
+
+.icon-item img {
+    width: 80px; /* Adjust icon size as needed */
+    height: 80px; /* Adjust icon size as needed */
+    margin-right: 20px; /* Add margin between icon and text */
+}
+
+.text-container {
+    display: flex; /* Use flexbox for text alignment */
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: center; /* Center-align items vertically */
+}
+
+.text-container p {
+    margin: 0; /* Remove default margin for paragraphs */
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+    position: fixed;
+    top: 50%;
+    left: 1%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-buttons button {
+    background-color: #403d39;
+    border: none;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    margin: 5px 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nav-buttons img {
+    width: 24px; /* Adjust the icon size as needed */
+    height: 24px; /* Adjust the icon size as needed */
+}
+
+#awards-certificates {
+  padding: 20px;
+  background-color: #fffcf2;
+}
+
+#awards-certificates h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.certificate-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.certificate-card {
+  flex: 0 0 calc(33.333% - 20px);
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.certificate-card img {
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.certificate-card img:hover {
+  transform: scale(1.05);
+}
+
+.contact-banner {
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.7);
+    margin: 50px auto 40px;
+    max-width: 1200px;
+    overflow: hidden;
+    height: 400px; /* Adjust the height as per your design */
+}
+
+.contact-banner img {
+    width: 100%;
+    height: 100%; /* Fill the entire container */
+    object-fit: cover;
+    display: block;
+}
+
+.contact-banner h3 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.contact-icon {
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icon a {
+    margin: 0 10px; /* Adjust spacing between icons */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-icon img {
+    width: 100px; /* Adjust icon size as needed */
+    height: 50px;
+    object-fit: contain; /* Ensure icons maintain their aspect ratio */
+}
+
+.contact-icon span {
+    margin-top: 5px;
+    font-size: 14px; /* Adjust the size of the text if needed */
+    color: #fff; /* Adjust the color of the text if needed */
+}
+
+.download-resume-btn {
+    background-color: #eb5e28;
+    color: #fffcf2;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    width: 200px; /* Adjust size as needed */
+    height: 50px;
+    font-size: 17px;
+}
